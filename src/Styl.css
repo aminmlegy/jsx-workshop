@@ -1,0 +1,43 @@
+.title{
+    color: green;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+body{
+    background-color: rgb(29, 28, 28);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+}
+img{
+    max-width:50%;
+    height: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    display: inline-block;
+
+}
+img:hover{
+    transform: scale(1.1);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.copyw{
+    border-left: 1px solid goldenrod;
+    padding: 3px;
+}
+.copyw p{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
